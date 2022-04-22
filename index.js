@@ -11,7 +11,8 @@ app.listen(port, () => {
 });
 
 
-<html>
+<style>
+
 
 <body>
 
@@ -23,6 +24,7 @@ app.listen(port, () => {
 
 </body>
 
+</style>
 
 
 
@@ -36,5 +38,3 @@ app.listen(port, () => {
 
 
 
-
-</html>
