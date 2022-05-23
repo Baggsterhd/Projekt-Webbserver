@@ -26,9 +26,6 @@ app.listen(port, () => {
 
 app.use(express.static(__dirname + '/public'));
 
-app.get('/', function(req, res){
-  res.sendFile(process.cwd() + '/index.html');
-});
 
 app.get('/', function(req, res){
   res.sendFile(process.cwd() + '/about.html');
@@ -41,4 +38,8 @@ app.get('/', function(req, res){
 
 app.get('/', function(req, res){
   res.sendFile(process.cwd() + '/swedish.html');
+});
+
+app.get(["/","/index.html"],function(req.res);
+    res.sendFile(process.cwd() + '/index.html');
 });
